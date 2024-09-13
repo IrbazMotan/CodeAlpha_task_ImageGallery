@@ -1,0 +1,244 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#myBtnContainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Default image container */
+.filterDiv {
+  display: none; /* Hidden by default */
+  background-color: #f2f2f2;
+  color: #666;
+  padding: 20px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform 0.3s;
+  width:20%; /* Set width to 30% for large screens */
+}
+.container{
+  background-color: black;
+}
+/* Adjust image width for smaller screens */
+@media screen and (max-width: 800px) {
+  .filterDiv {
+    width: 30%; /* Set width to 45% for medium screens */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .filterDiv {
+    width: 100%; /* Set width to 100% for small screens */
+  }
+}
+
+.filterDiv img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.filterDiv figcaption {
+  font-size:medium;
+ font-weight:bold;
+ color:black;
+ text-transform:uppercase;
+}
+.filterDiv:hover {
+  transform: scale(1.05);
+}
+
+/* Show filtered elements */
+.show {
+  display: block;
+}
+
+/* footer */
+.footer {
+  width: 100%;
+  background-color: #4f0205;
+  color: sandybrown;
+}
+
+.brand-logo img {
+  width: 8em;
+  position: relative;
+  /* margin-left:35em; */
+  /* height: 20vh; */
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.socail p {
+  position: relative;
+  bottom: 1.5em;
+  margin-left: 25em;
+
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+
+.follow p {
+  position: relative;
+  bottom: 7vh;
+}
+
+.socail ul {
+  display: flex;
+  position: relative;
+  bottom: 1.5em;
+  justify-content: center;
+}
+
+.socail ul li {
+  display: flex;
+  margin-left: 2em;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1em;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: sandybrown;
+}
+
+.footer-text a:hover {
+  color: #dd660d;
+}
+
+.footer-bottom ul {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 1em;
+}
+
+.footer-bottom ul li {
+  display: flex;
+  margin-left: 2em;
+}
+
+.footer-bottom a {
+  color: sandybrown;
+}
+
+.footer-bottom a:hover {
+  color: #dd660d;
+}
+/* footer */
+
+/* header */
+.container {
+  width: 100%;
+}
+
+header {
+  height: 15vh;
+  width: 100%;
+  background-color: #4f0205;
+}
+
+.logo {
+  /* display: flex; */
+  float: left;
+  width: 20%;
+  height: 5vh;
+}
+
+.logo img {
+  width: 60%;
+  bottom: 4.5vh;
+  position: relative;
+  margin-left: 4em;
+  box-sizing: border-box;
+}
+
+.nav {
+  position: relative;
+  top: 5vh;
+  margin-left: 10vw;
+  box-sizing: border-box;
+}
+
+.nav ul {
+  display: flex;
+  position: relative;
+  margin-left: 5vw;
+  box-sizing: border-box;
+}
+
+.nav ul li {
+  display: flex;
+  /* list-style: none; */
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: sandybrown;
+  text-align: center;
+  font-size: x-large;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 6vh;
+  margin-left: 3vw;
+  box-sizing: border-box;
+
+}
+
+.nav ul li a img {
+  margin-left: 4em;
+}
+
+.nav ul li a:hover {
+  color: #dd660d;
+
+}
+
+.nav ul li:nth-child(6) {
+  margin-left: 4vw;
+}

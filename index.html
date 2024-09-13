@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE GALLERY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lightbox.css">
+</head>
+<body>
+
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('cars')"> Cars</button>
+        <button class="btn" onclick="filterSelection('animals')"> Animals</button>
+        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <!-- <button class="btn" onclick="filterSelection('colors')"> Colors</button> -->
+        <button class="btn" onclick="filterSelection('vege')">vegetable</button>
+      </div>
+      
+      <div class="container">
+        <!-- cars open -->
+        <div class="filterDiv cars"><a href="img/tesla.jpg" data-lightbox="models" data-title="tesla"><img src="img/tesla.jpg" height="100%" width="100%" alt="tesla"></a>
+        <figcaption>tesla</figcaption></div>
+        <div class="filterDiv fruits"><a href="img/injeeer.jpg" data-lightbox="models" data-title="injeer"><img src="img/injeeer.jpg" alt="injeer"></a></div>
+        <div class="filterDiv fruits"><a href="img/apple.jpg" data-lightbox="models" data-title="apple"><img src="img/apple.jpg" alt="apple"></a></div>
+        <div class="filterDiv fruits"><a href="img/mango.jpg" data-lightbox="models" data-title="mango"><img src="img/mango.jpg" alt="mango"></a></div>
+        <div class="filterDiv fruits"><a href="img/kiwi.jpg" data-lightbox="models" data-title="kiwi"><img src="img/kiwi.jpg" alt="kiwi"></a></div>
+        <div class="filterDiv fruits"><a href="img/kabuli.jpg" data-lightbox="models" data-title="kabuli"><img src="img/kabuli.jpg" alt="kabuli"></a></div>
+        <div class="filterDiv fruits"><a href="img/pineapple.jpg" data-lightbox="models" data-title="pineapple"><img src="img/pineapple.jpg" alt="pineapple"></a></div>
+        <div class="filterDiv fruits"><a href="img/plm.jpg" data-lightbox="models" data-title="plum"><img src="img/plm.jpg" alt="plum"></a></div>
+        <div class="filterDiv fruits"><a href="img/banana.jpg" data-lightbox="models" data-title="banana"><img src="img/banana.jpg" alt="banana"></a></div>
+        <div class="filterDiv cars"><a href="img/indus-corolla.jpg" data-lightbox="modals"data-title="indus corolla"><img src="img/indus-corolla.jpg" alt="Indus Corolla"></a></div>
+        <div class="filterDiv cars"><a href="img/civic.jpg" data-lightbox="modals"data-title="civic"><img src="img/civic.jpg" alt="civic"></a></div>
+        <div class="filterDiv cars"><a href="img/alto.jpg" data-lightbox="modals"data-title="alto"><img src="img/alto.jpg" alt="alto"></a></div>
+        <div class="filterDiv cars"><a href="img/cultus-old.jpg" data-lightbox="modals"data-title="cultus"><img src="img/cultus-old.jpg" alt="Cultus old"></a></div>
+        <div class="filterDiv cars"><a href="img/cultus-new.jpg" data-lightbox="modals"data-title="cultus new"><img src="img/cultus-new.jpg" alt="cultus new"></a></div>
+        <div class="filterDiv cars"><a href="img/mehran.jpg" data-lightbox="modals"data-title="mehran"><img src="img/mehran.jpg" alt="mehran car "></a></div>
+        <div class="filterDiv cars"><a href="img/fx.jpg" data-lightbox="modals"data-title="fx car"><img src="img/fx.jpg" alt="fx car"></a></div>
+        <div class="filterDiv cars"><a href="img/foxi.jpg" data-lightbox="modals"data-title="foxi"><img src="img/foxi.jpg" alt="foxi"></a></div>
+        <div class="filterDiv cars"><a href="img/freed.jpg" data-lightbox="modals"data-title="freed"><img src="img/freed.jpg" alt="freed"></a></div>
+        <div class="filterDiv cars"><a href="img/brv.jpg" data-lightbox="modals"data-title="brv"><img src="img/brv.jpg" alt="brv"></a></div>
+        <div class="filterDiv cars"><a href="img/corolla-se-sallon.jpg" data-lightbox="modals"data-title="corolla se salon"><img src="img/corolla-se-sallon.jpg" alt="corolla se saloon"></a></div>
+        <div class="filterDiv cars"><a href="img/yaris.jpg" data-lightbox="modals"data-title="yaris"><img src="img/yaris.jpg" alt="yaris"></a></div>
+        <div class="filterDiv cars"><a href="img/prius.jpg" data-lightbox="modals"data-title="prius"><img src="img/prius.jpg" alt="prius"></a></div>
+        <div class="filterDiv cars"><a href="img/core.jpg" data-lightbox="modals"data-title="core"><img src="img/core.jpg" alt="core"></a></div>
+        <div class="filterDiv cars"><a href="img/baleno.jpg" data-lightbox="modals"data-title="baleno"><img src="img/baleno.jpg" alt="baleno"></a></div>
+        <div class="filterDiv cars"><a href="img//wagon r.jpg" data-lightbox="modals"data-title="wagon r"><img src="img/wagon r.jpg" alt="wagon r"></a></div>
+        <div class="filterDiv cars"><a href="img/vitz.jpg" data-lightbox="modals"data-title="vitz"><img src="img/vitz.jpg" alt="vitz"></a></div>
+        <div class="filterDiv cars"><a href="img/vigo.jpg" data-lightbox="modals"data-title="vigo"><img src="img/vigo.jpg" alt="vigo"></a></div>
+        <div class="filterDiv cars"><a href="img/revo.jpg" data-lightbox="modals"data-title="revo"><img src="img/revo.jpg" alt="revo"></a></div>
+        <div class="filterDiv cars"><a href="img/fortuner.jpg" data-lightbox="modals"data-title="fortuner"><img src="img/fortuner.jpg" alt="fortuner"></a></div>
+        <div class="filterDiv cars"><a href="img/vezel.jpg" data-lightbox="modals"data-title="vezel"><img src="img/vezel.jpg" alt="vezel"></a></div>
+        <div class="filterDiv cars"><a href="img/parado.jpg" data-lightbox="modals"data-title="parado"><img src="img/parado.jpg" alt="parado"></a></div>
+        <div class="filterDiv cars"><a href="img/hiroof.jpg" data-lightbox="modals"data-title="hi roof"><img src="img/hiroof.jpg" alt="hiroof"></a></div>
+        <div class="filterDiv cars"><a href="img/hijet.jpg" data-lightbox="modals"data-title="hijet"><img src="img/hijet.jpg" alt="hijet"></a></div>
+        <div class="filterDiv cars"><a href="img/altis" data-lightbox="modals"data-title="altis"><img src="img/altis.jpg" alt="altis"></a></div>
+        <div class="filterDiv cars"><a href="img/liana.jpg" data-lightbox="modals"data-title="liana"><img src="img/liana.jpg" alt="liana"></a></div>
+        <div class="filterDiv cars"><a href="img/sporatge.jpg" data-lightbox="modals"data-title="sportage"><img src="img/sporatge.jpg" alt="sportage"></a></div>
+        <div class="filterDiv cars"><a href="img/mg.jpg" data-lightbox="modals"data-title="mg car"><img src="img/mg.jpg" alt="mg"></a></div>
+        <div class="filterDiv cars"><a href="img/picanto.jpg" data-lightbox="modals"data-title="picanto"><img src="img/picanto.jpg" alt="picanto"></a></div>
+        <div class="filterDiv cars"><a href="img/prince.jpg" data-lightbox="modals"data-title="prince"><img src="img/prince.jpg" alt="prince"></a></div>
+        <div class="filterDiv cars"><a href="img/ev9.jpg" data-lightbox="modals"data-title="Ev9"><img src="img/ev9.jpg" alt="ev9"></a></div>
+        <div class="filterDiv cars"><a href="img/aqua.jpg" data-lightbox="modals"data-title="aqua"><img src="img/aqua.jpg" alt="aqua"></a></div>
+        <div class="filterDiv cars"><a href="img/JEEP.jpg" data-lightbox="modals"data-title="jeep"><img src="img/JEEP.jpg" alt="jeep"></a></div>
+        <div class="filterDiv cars"><a href="img/swift.jpg" data-lightbox="modals"data-title="swift"><img src="img/swift.jpg" alt="swift"></a></div>
+        <div class="filterDiv cars"><a href="img/SUPRA.jpg" data-lightbox="modals"data-title="supra"><img src="img/SUPRA.jpg" alt="supra"></a></div>
+        <div class="filterDiv cars"><a href="img/sedan.jpg" data-lightbox="modals"data-title="sedan"><img src="img/sedan.jpg" alt="seedan"></a></div>
+        <div class="filterDiv cars"><a href="img/terano.jpg" data-lightbox="modals"data-title="terano"><img src="img/terano.jpg" alt="terano"></a></div>
+        <div class="filterDiv cars"><a href="img/cheron.jpg" data-lightbox="modals"data-title="cheron"><img src="img/cheron.jpg" alt="cheron"></a></div>
+        <div class="filterDiv cars"><a href="img/veyron.jpg" data-lightbox="modals"data-title="veyron"><img src="img/veyron.jpg" alt="veyron"></a></div>
+        <div class="filterDiv cars"><a href="img/audi a7.jpg" data-lightbox="modals"data-title="audi A7"><img src="img/audi a7.jpg" alt="A7"></a></div>
+        <div class="filterDiv cars"><a href="img/audi A8.jpg" data-lightbox="modals"data-title="audi A8"><img src="img/audi A8.jpg" alt="A8"></a></div>
+        <div class="filterDiv cars"><a href="img/defender.jpg" data-lightbox="modals"data-title="defender"><img src="img/defender.jpg" alt="defender"></a></div>
+        <div class="filterDiv cars"><a href="img/evoque.jpg" data-lightbox="modals"data-title="evoque"><img src="img/evoque.jpg" alt="evoque"></a></div>
+        <div class="filterDiv cars"><a href="img/rs6" data-lightbox="modals"data-title="Rs6"><img src="img/rs6.jpg" alt="rs6"></a></div>
+        <div class="filterDiv cars"><a href="img/charade.jpg" data-lightbox="modals"data-title="charade"><img src="img/charade.jpg" alt="charade"></a></div>
+        <div class="filterDiv cars"><a href="img/city.jpg" data-lightbox="modals"data-title="city"><img src="img/city.jpg" alt="city"></a></div>
+        <div class="filterDiv cars"><a href="img/civic-old.jpg" data-lightbox="modals"data-title="civic old"><img src="img/civic-old.jpg" alt="civic-old"></a></div>
+        <div class="filterDiv cars"><a href="img/khyber.jpg" data-lightbox="modals"data-title="khyber"><img src="img/khyber.jpg" alt="khyber"></a></div>
+        <div class="filterDiv cars"><a href="img/volvo.jpg" data-lightbox="modals"data-title="volvo"><img src="img/volvo.jpg" alt="volvo"></a></div>
+        <div class="filterDiv cars"><a href="img/ford.jpg" data-lightbox="modals"data-title="ford"><img src="img/ford.jpg" alt="ford"></a></div>
+        <div class="filterDiv cars"><a href="img/wolkswagen.jpg" data-lightbox="modals"data-title="wolkswagen"><img src="img/wolkswagen.jpg" alt="wolkswagen"></a></div>
+        <div class="filterDiv cars"><a href="img/lamosine.jpg" data-lightbox="modals"data-title="lamosine"><img src="img/lamosine.jpg" alt="lamosine"></a></div>
+        <div class="filterDiv cars"><a href="img/carniva.jpg" data-lightbox="modals"data-title="carniva"><img src="img/carniva.jpg" alt="carniva"></a></div>
+        <!--cars closed  -->
+        <!-- vegetables  -->
+        <div class="filterDiv vege"><a href="img/potato.jpg" data-lightbox="modals"data-title="potato"><img src="img/potato.jpg" alt="potato"></a></div>
+        <div class="filterDiv vege"><a href="img/barcoli.jpg" data-lightbox="modals"data-title="barcoli"><img src="img/barcoli.jpg" alt="barcoli"></a></div>
+        <div class="filterDiv vege"><a href="img/brinjal.jpg" data-lightbox="modals"data-title="brinjal"><img src="img/brinjal.jpg" alt="brinjal"></a></div>
+        <div class="filterDiv vege"><a href="img/beetrot.jpg" data-lightbox="modals"data-title="beetrot"><img src="img/beetrot.jpg" alt="beetrot"></a></div>
+        <div class="filterDiv vege"><a href="img/bitter ground.jpg" data-lightbox="modals"data-title="bitter ground"><img src="img/bitter ground.jpg" alt="bitter ground"></a></div>
+        <div class="filterDiv vege"><a href="img/lady finger.jpg" data-lightbox="modals"data-title="lady finger"><img src="img/lady finger.jpg" alt="lady finger"></a></div>
+        <div class="filterDiv vege"><a href="img/corn.jpg" data-lightbox="modals"data-title="corn"><img src="img/corn.jpg" alt="corn"></a></div>
+        <div class="filterDiv vege"><a href="img/tomato.jpg" data-lightbox="modals"data-title="tomato"><img src="img/tomato.jpg" alt="tomato"></a></div>
+        <div class="filterDiv vege"><a href="img/onion.jpg" data-lightbox="modals"data-title="onion"><img src="img/onion.jpg" alt="onion"></a></div>
+        <div class="filterDiv vege"><a href="img/carrot.jpg" data-lightbox="modals"data-title="carrot"><img src="img/carrot.jpg" alt="carrot"></a></div>
+        <div class="filterDiv vege"><a href="img/green peas.jpg" data-lightbox="modals"data-title="green peas"><img src="img/green peas.jpg" alt="green peas"></a></div>
+        <div class="filterDiv vege"><a href="img/red-chili.jpg" data-lightbox="modals"data-title="redchili"><img src="img/red-chili.jpg" alt="red-chili"></a></div>
+        <div class="filterDiv vege"><a href="img/garlic.jpg" data-lightbox="modals"data-title="garlic"><img src="img/garlic.jpg" alt="garrlic"></a></div>
+        <div class="filterDiv vege"><a href="img/green-chili.jpg" data-lightbox="modals"data-title="green-chili"><img src="img/green-chili.jpg" alt="green-chili"></a></div>
+        <div class="filterDiv vege"><a href="img/capsicum green.jpg" data-lightbox="modals"data-title="capsicum"><img src="img/capsicum green.jpg" alt="green capsicum"></a></div>
+        <div class="filterDiv vege"><a href="img/purple-cabage.jpg" data-lightbox="modals"data-title="purple cabage"><img src="img/purple-cabage.jpg" alt="cabage purple"></a></div>
+        <div class="filterDiv vege"><a href="img/capsicum-red.jpg" data-lightbox="modals"data-title="capsicum red"><img src="img/capsicum-red.jpg" alt="cabsicum-red"></a></div>
+        <div class="filterDiv animals"><a href="img/cat.jfif" data-lightbox="modals"data-title="cat"><img src="img/cat.jfif" alt="cat"></a></div>
+        <div class="filterDiv animals"><a href="img/camel.jfif" data-lightbox="modals"data-title="camel"><img src="img/camel.jfif" alt="camel"></a></div>
+        <div class="filterDiv animals"><a href="img/dog.jfif" data-lightbox="modals"data-title="dog"><img src="img/dog.jfif" alt="dog"></a></div>
+        <div class="filterDiv animals"><a href="img/rabbit.jfif" data-lightbox="modals"data-title="rabbit"><img src="img/rabbit.jfif" alt="rabbit"></a></div>
+        <div class="filterDiv animals"><a href="img/lama.jfif" data-lightbox="modals"data-title="lama"><img src="img/lama.jfif" alt="lama"></a></div>
+        <div class="filterDiv animals"><a href="img/miniature horse.jfif" data-lightbox="modals"data-title="miniature horse"><img src="img/miniature horse.jfif" alt="miniature-horse"></a></div>
+        <div class="filterDiv animals"><a href="img/mule.jfif" data-lightbox="modals"data-title="mule"><img src="img/mule.jfif" alt="mule"></a></div> 
+        <div class="filterDiv animals"><a href="img/horse.jfif" data-lightbox="modals"data-title="horse"><img src="img/horse.jfif" alt="horse"></a></div>
+        <div class="filterDiv animals"><a href="img/donkey.jfif" data-lightbox="modals"data-title="donkey"><img src="img/donkey.jfif" alt="donkey"></a></div>
+        <div class="filterDiv animals"><a href="img/ostrich.jfif" data-lightbox="modals"data-title="ostrich"><img src="img/ostrich.jfif" alt="rabbit"></a></div>
+        <div class="filterDiv animals"><a href="img/hare.jfif" data-lightbox="modals"data-title="hare"><img src="img/hare.jfif" alt="hare"></a></div>
+        <div class="filterDiv animals"><a href="img/buffalo.jfif" data-lightbox="modals"data-title="buffalo"><img src="img/buffalo.jfif" alt="buffalo"></a></div>
+        <div class="filterDiv animals"><a href="img/coe.jfif" data-lightbox="modals"data-title="cow"><img src="img/coe.jfif" alt="cow"></a></div>
+        <div class="filterDiv animals"><a href="img/goat.jfif" data-lightbox="modals"data-title="goat"><img src="img/goat.jfif" alt="goat"></a></div>
+        <div class="filterDiv animals"><a href="img/sheep.jfif" data-lightbox="modals"data-title="sheep"><img src="img/sheep.jfif" alt="sheep"></a></div>
+        <div class="filterDiv animals"><a href="img/deer.jfif" data-lightbox="modals"data-title="deer"><img src="img/deer.jfif" alt="deer"></a></div>
+        <div class="filterDiv animals"><a href="img/markhor.webp" data-lightbox="modals"data-title="markhor"><img src="img/markhor.webp" alt="markhor"></a></div>
+        <div class="filterDiv animals"><a href="img/loin.jfif" data-lightbox="modals"data-title="loin"><img src="img/loin.jfif" alt=""></a></div>
+        <div class="filterDiv animals"><a href="img/fox.jfif" data-lightbox="modals"data-title="fox"><img src="img/fox.jfif" alt="fox"></a></div>
+        <div class="filterDiv animals"><a href="img/tiger.jfif" data-lightbox="modals"data-title="tiger"><img src="img/tiger.jfif" alt="tiger"></a></div>
+        <div class="filterDiv animals"><a href="img/zebra.jfif" data-lightbox="modals"data-title="zebra"><img src="img/zebra.jfif" alt="zebra"></a></div>
+        <div class="filterDiv animals"><a href="img/elephant.jfif" data-lightbox="modals"data-title="elephant"><img src="img/elephant.jfif" alt="elephant"></a></div>
+       </div>
+      <script src="filter.js"></script>
+      <script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>
+    
